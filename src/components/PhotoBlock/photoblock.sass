@@ -1,0 +1,44 @@
+.photoBlock
+    grid-area: photo
+    background-color: #C4B7D7
+    color: #705697
+    border-radius: 10px
+    margin-left: 20px
+    display: flex
+    color: #F5F5F5
+    font-family: MontserratRegular
+    font-size: 25px
+    text-align: center
+
+    &__image-before
+        margin: 20px 15px
+        border-radius: 5px
+        box-shadow: 2px 4px 20px white
+        transition: 1s
+
+    &__image-before:hover
+        transform: scale(1.1)
+        margin-top: 17px
+
+    &__image-after
+        margin: 20px 15px
+        display: block
+        margin-left: auto
+        border-radius: 5px
+        box-shadow: 2px 4px 20px black
+        transition: 1s
+
+    &__image-after:hover
+        transform: scale(1.1)
+        margin-top: 17px
+
+    &__text
+        display: flex
+        flex-direction: column
+        margin-left: auto
+        
+        &_right
+            margin-top: 30%
+
+        &_left
+            margin-top: 20%

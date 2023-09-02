@@ -1,14 +1,23 @@
-import { NavLink, Route, Routes } from "react-router-dom"
-import { JsPowerHeader } from "./components/JsPowerHeader/JsPowerHeader"
-import { JsPower } from "./components/JsPower/JsPower"
+import { NavLink } from "react-router-dom";
+import { JsPowerHeader } from "./components/JsPowerHeader/JsPowerHeader";
+import './interface.sass';
+import { PhotoBlock } from "./components/PhotoBlock/PhotoBlock";
+import { ScreencastBlock } from "./components/ScreencastBlock/ScreencastBlock";
+import { InfoBlock } from "./components/InfoBlock/InfoBlock";
+import { GitBlock } from "./components/GitBlock/GitBlock";
+import { Footer } from "./components/Footer/Footer";
 
 
 function App() {
 
   return (
-   <div>
-      <NavLink to="/JsPower"><JsPowerHeader/></NavLink>
-      
+   <div className="grid-wrapper">
+      <NavLink to="/JsPower" className="JsPowerHeader"><JsPowerHeader/></NavLink>
+      <PhotoBlock/>
+      <ScreencastBlock/>
+      <InfoBlock/>
+      <GitBlock/>
+      <Footer/>
    </div>
   )
 }
