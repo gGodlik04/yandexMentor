@@ -6,8 +6,8 @@ import './jspowerheader.sass'
 export const JsPowerHeader: FC<IJsPowerHeader> = (props: IJsPowerHeader) => {
 
     return(
-        <div className="">
-            <p>Почувствуй силу JavaScript</p>
+        <div className="jsPowerHeader">
+            <p>Почувствуй силу JavaScript*</p>
         </div>
     )
 }

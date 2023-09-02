@@ -12,3 +12,33 @@
     
     p
         margin-top: 1.5%
+        
+.jsPowerHeader
+    text-decoration: none
+    position: relative
+    transition: 1s
+
+.jsPowerHeader:hover
+    animation: none
+    scale: 1.1
+
+.jsPowerHeader
+    animation: shaking 2.5s infinite
+
+@keyframes shaking 
+    0%  
+        transform: translate(0, 0) rotate(0deg)
+    60%  
+        transform: translate(0, 0) rotate(0deg)
+    65%
+        transform: translate(5px, 5px) rotate(5deg)
+    75%
+        transform: translate(-5px, 5px) rotate(-5deg)
+    85% 
+        transform: translate(5px, 5px) rotate(5deg)
+    90%  
+        transform: translate(-5px, 5px) rotate(-5deg)
+    95% 
+        transform: translate(5px, 5px) rotate(5deg)
+    100%  
+        transform: translate(0, 0) rotate(0deg)

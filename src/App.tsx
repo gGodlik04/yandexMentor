@@ -6,9 +6,15 @@ import { ScreencastBlock } from "./components/ScreencastBlock/ScreencastBlock";
 import { InfoBlock } from "./components/InfoBlock/InfoBlock";
 import { GitBlock } from "./components/GitBlock/GitBlock";
 import { Footer } from "./components/Footer/Footer";
+import { useEffect } from "react";
+import {gsapMain} from './utils/gsap/gsapMain';
 
 
 function App() {
+
+  useEffect(() => {
+    gsapMain();
+  },[])
 
   return (
    <div className="grid-wrapper">

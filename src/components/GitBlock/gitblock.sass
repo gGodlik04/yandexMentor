@@ -22,5 +22,27 @@
 
     &__image:hover
         transform: scale(1.1)
+        animation: none
         
+
+    &__image
+        animation: circle 5s infinite
+
+        @keyframes circle 
+            0%  
+                transform:  rotate(0deg)
+            60%  
+                transform:  rotate(0deg)
+            65%
+                transform:  rotate(180deg)
+            75%
+                transform:  rotate(180deg)
+            85% 
+                transform: rotate(180deg)
+            90%  
+                transform:  rotate(360deg)
+            95% 
+                transform:  rotate(360deg)
+            100%  
+                transform:  rotate(360deg)
         

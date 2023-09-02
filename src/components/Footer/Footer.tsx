@@ -9,7 +9,7 @@ export const Footer: FC<IFooter> = (props: IFooter) => {
 
   return (
    <div className="footer">
-      <p>&#169;Created by godlik</p>
+      <p className="footer__text">&#169;Created by godlik</p>
    </div>
   )
 }
