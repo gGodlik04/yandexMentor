@@ -1,9 +1,15 @@
-import './App.css'
+import { NavLink, Route, Routes } from "react-router-dom"
+import { JsPowerHeader } from "./components/JsPowerHeader/JsPowerHeader"
+import { JsPower } from "./components/JsPower/JsPower"
+
 
 function App() {
 
   return (
-   <div>Hello world</div>
+   <div>
+      <NavLink to="/JsPower"><JsPowerHeader/></NavLink>
+      
+   </div>
   )
 }
 
