@@ -7,7 +7,7 @@ export const JsPowerHeader: FC<IJsPowerHeader> = (props: IJsPowerHeader) => {
 
     return(
         <div className="">
-            Почувствуй силу JavaScript
+            <p>Почувствуй силу JavaScript</p>
         </div>
     )
 }
