@@ -5,7 +5,7 @@ import './infoblock.sass'
 
 
 
-export const InfoBlock: FC<IInfoBlock> = (props: IInfoBlock) => {
+export const InfoBlock: FC<IInfoBlock> = (/* props: IInfoBlock */) => {
 
   return (
    <div className="infoBlock">

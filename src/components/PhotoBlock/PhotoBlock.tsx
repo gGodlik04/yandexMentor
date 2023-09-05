@@ -7,7 +7,7 @@ import after from '../../assets/images/after.jpg';;
 
 
 
-export const PhotoBlock: FC<IPhotoBlock> = (props: IPhotoBlock) => {
+export const PhotoBlock: FC<IPhotoBlock> = (/* props: IPhotoBlock */) => {
 
   return (
    <div className="photoBlock">

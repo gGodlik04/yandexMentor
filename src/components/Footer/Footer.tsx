@@ -5,7 +5,7 @@ import './footer.sass'
 
 
 
-export const Footer: FC<IFooter> = (props: IFooter) => {
+export const Footer: FC<IFooter> = (/* props: IFooter */) => {
 
   return (
    <div className="footer">

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom"
 
 // NO TYPESCRIPT
 
-export const JsPower: FC<IJsPower> = (props: IJsPower) => {
+export const JsPower: FC<IJsPower> = (/* props: IJsPower */) => {
 
   useEffect(() => {
 

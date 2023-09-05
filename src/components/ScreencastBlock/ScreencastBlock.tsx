@@ -6,7 +6,7 @@ import './screencastblock.sass'
 
 
 
-export const ScreencastBlock: FC<IScreencastBlock> = (props: IScreencastBlock) => {
+export const ScreencastBlock: FC<IScreencastBlock> = (/* props: IScreencastBlock */) => {
 
   return (
     <div className="screencastBlock">

@@ -6,7 +6,7 @@ import git from '../../assets/images/git.png'
 
 
 
-export const GitBlock: FC<IGitBlock> = (props: IGitBlock) => {
+export const GitBlock: FC<IGitBlock> = (/* props: IGitBlock */) => {
 
   return (
    <div className="gitBlock">

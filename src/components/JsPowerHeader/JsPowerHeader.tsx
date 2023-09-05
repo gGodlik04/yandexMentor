@@ -3,7 +3,7 @@ import { IJsPowerHeader } from "../Interface/IJsPowerHeader";
 import './jspowerheader.sass'
 
 
-export const JsPowerHeader: FC<IJsPowerHeader> = (props: IJsPowerHeader) => {
+export const JsPowerHeader: FC<IJsPowerHeader> = (/* props: IJsPowerHeader */) => {
 
     return(
         <div className="jsPowerHeader">
